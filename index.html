@@ -1,0 +1,157 @@
+<html>
+<head>
+    <title>Weather Forecast</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('/images/9a57f48b-628a-44d6-98db-f60a98510a1d\ \(1\).jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .location {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #00FFFF;
+        }
+        .date {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #00FFFF;
+        }
+        .weather-icon {
+            font-size: 100px;
+            margin: 20px 0;
+        }
+        .temperature {
+            font-size: 48px;
+            margin: 10px 0;
+        }
+        .description {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .details {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .details div {
+            font-size: 18px;
+        }
+        .forecast {
+            margin-top: 20px;
+        }
+        .forecast-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #00FFFF;
+        }
+        .forecast-days {
+            display: flex;
+            justify-content: space-around;
+        }
+        .forecast-day {
+            background: rgba(0, 0, 255, 0.7);
+            padding: 10px;
+            border-radius: 10px;
+            width: 60px;
+        }
+        .forecast-day img {
+            width: 40px;
+            height: 40px;
+        }
+        .forecast-day .day {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .forecast-day .temp {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="location">
+            <i class="fas fa-map-marker-alt"></i>
+            POBLACION ILAYA
+        </div>
+        <div class="date">
+            MONDAY DECEMBER 2, 2024
+        </div>
+        <div class="weather-icon">
+            <i class="fas fa-sun"></i>
+        </div>
+        <div class="temperature">
+            35°
+        </div>
+        <div class="description">
+            Sunny
+        </div>
+        <div class="details">
+            <div>
+                <div>23°</div>
+                <div>High</div>
+            </div>
+            <div>
+                <div>14°</div>
+                <div>Low</div>
+            </div>
+            <div>
+                <div>7mph</div>
+                <div>Wind</div>
+            </div>
+            <div>
+                <div>0%</div>
+                <div>Rain</div>
+            </div>
+            <div>
+                <div>05:27</div>
+                <div>Sunrise</div>
+            </div>
+            <div>
+                <div>20:57</div>
+                <div>Sunset</div>
+            </div>
+        </div>
+        <div class="forecast">
+            <div class="forecast-title">
+                Next 5 days
+            </div>
+            <div class="forecast-days">
+                <div class="forecast-day">
+                    <img alt="Sunny icon" src="images/sunny.png" />
+                    <div class="day">Tue</div>
+                    <div class="temp">10-21°</div>
+                </div>
+                <div class="forecast-day">
+                    <img alt="Partly cloudy icon" src="images/partly-cloudy.png" />
+                    <div class="day">Wed</div>
+                    <div class="temp">9-18°</div>
+                </div>
+                <div class="forecast-day">
+                    <img alt="Rainy icon" src="images/rainy.png" />
+                    <div class="day">Thu</div>
+                    <div class="temp">7-15°</div>
+                </div>
+                <div class="forecast-day">
+                    <img alt="Sunny icon" src="images/sunny.png" />
+                    <div class="day">Fri</div>
+                    <div class="temp">10-21°</div>
+                </div>
+                <div class="forecast-day">
+                    <img alt="Sunny icon" src="images/sunny.png" />
+                    <div class="day">Sat</div>
+                    <div class="temp">12-24°</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
